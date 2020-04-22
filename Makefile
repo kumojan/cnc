@@ -8,4 +8,4 @@ test: cnc
 clean:
 	rm -f cnc *.o *~ tmp*
 
-.PHONY test clean
+.PHONY: test clean
