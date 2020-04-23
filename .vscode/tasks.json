@@ -8,7 +8,7 @@
       "args": [
         "${file}",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}",
+        "${fileDirname}/${fileBasenameNoExtension}.debug",
         "--debug"
       ],
       "group": {

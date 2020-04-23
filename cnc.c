@@ -73,7 +73,7 @@ Token *tokenize(char *p) {
       continue;
     }
 
-    if (*p == "+" || *p == "-") {
+    if (*p == '+' || *p == '-') {
       cur = new_token(TK_RESERVED, cur, p++);
       continue;
     }
@@ -102,7 +102,7 @@ int main(int argc, char **argv) {
   printf("  mov rax, %d\n", expect_number());
 
   while (!at_eof()) {
-    if (consume("+")) {
+    if (consume('+')) {
       printf("  add rax, %d\n", expect_number());
       continue;
     }
