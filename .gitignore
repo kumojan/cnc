@@ -5,3 +5,4 @@ a.out
 cnc
 *.dSYM
 memo.txt
+*.debug
