@@ -10,7 +10,7 @@
       "request": "launch",
       "program": "${fileDirname}/${fileBasenameNoExtension}.debug",
       "args": [
-        "5+21-4"
+        "5+21*4"
       ],
       "cwd": "${workspaceFolder}"
       // "preLaunchTask": "Build with Clang"
