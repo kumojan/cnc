@@ -6,3 +6,6 @@ cnc
 *.dSYM
 memo.txt
 *.debug
+.vscode
+.devcontainer
+assert.sh
